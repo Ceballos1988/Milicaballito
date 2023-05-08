@@ -1,0 +1,154 @@
+header{
+    padding: 1em 1.5em;
+    background-image: url(/imagenes/Ladrillos\ negros.jpg);
+    border-radius: .5em;
+    margin-bottom: 1.5em;
+    background-size:contain;
+}
+#logo{
+    width: 100%;
+    height: 155px;
+    font-size: 0;
+    background-image: url(/imagenes/Logo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #140404, 0 0 15px #0e0101, 0 0 20px #0c0c0c, 0 0 5px #e289d6, 0 0 7px #e289d6, 0 0 10px #e289d6, 0 0 13px #e289d6, 0 0 15px #e289d6;
+}
+@keyframes move-right{
+    from {transform: translateX(0);}
+    to {transform: translateX(40px);}
+}
+.column-a{
+    animation: move-right 2s ease-in-out forwards;
+    
+}
+
+nav{
+    text-align:center;
+    font-family: 'Cabin Sketch', cursive;  
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #0e0d0d, 0 0 15px #0e0d0d, 0 0 20px #0e0d0d, 0 0 10px #c03daf, 0 0 15px #c03daf, 0 0 20px #c03daf, 0 0 25px #c03daf, 0 0 30px #c03daf;
+    font-family: 'Roboto Mono', monospace;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+body {
+    background-color: #5f6263;
+    color: white;   
+}
+body * + * {
+    margin-top: 1.5em;
+}
+.bgimage{
+    background-image: url(/imagenes/Fondo\ de\ body.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+img{
+    width: 70%;
+    border-radius: 2%;
+    display: block;
+    margin: 0 auto;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+p {
+    text-indent: 16px;
+    font-size: 14px;
+    margin: 1%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icono{
+    width: 40px;    
+}
+.contaninerIconos{
+    overflow:auto;
+    text-align:center; 
+}
+.redes-mail{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 14px;
+}
+#take-away{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+#Nosotros{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 22px;
+}
+#Elaboración{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 22px;
+}
+#Nuestra-filosofía{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 22px;
+}
+#Preguntas-frecuentes{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 22px;
+}
+#Pedidos{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 22px;
+}
+ #Catálogo{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+ }
+.column-2{
+    padding: 0;
+    margin: 0;
+    border-radius: 2%;
+}
+.column-2 p{
+    margin-right: 10px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 16px;
+}
+
+.column-12 img{
+    animation: bounce 1s infinite;
+    
+}
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
